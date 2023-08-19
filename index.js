@@ -8,6 +8,19 @@ function newImage(url, left, bottom){
     return image
 }
 
+function move(image){
+    image.style.position = 'fixed'
+    image.style.left = left + 'px'
+    image.style.bottom = bottom + 'px'
+
+    function moveToCoordinates(left, bottom) {
+        
+    }
+}
+
+let greenCharacter = newImage('assets/green-character.gif')
+move(greenCharacter to 100, 100)
+
 newImage('assets/green-character.gif', 100, 250)
 newImage('assets/tree.png', 200, 450)
 newImage('assets/pillar.png', 350, 250)
